@@ -1,0 +1,154 @@
+@import url("https://fonts.cdnfonts.com/css/dm-sans");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* Disable number spinner on input element of number type */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::selection {
+  background-color: transparent;
+}
+
+.MuiSkeleton-root {
+  transform: none !important;
+}
+
+
+
+/* Searchbar styling */
+.MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+  border: 1px solid  #457B83;
+  border-radius: 8px;
+  background-color:#f5f5fa50 ;
+  /* #f5f5fa50  #5b3a3a96*/
+  
+}
+.subscribe-sec .MuiInputBase-root {
+  padding-right: 0;
+}
+.subscribe-sec .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+  border: none;
+  border-radius: 8px;
+}
+.subscribe-sec .MuiInputBase-root input {
+  padding-right: inherit;
+}
+.MuiInputBase-root .MuiSelect-select {
+  border-radius: 8px;
+  background-color: #ffffff33;
+}
+.MuiSelect-icon {
+  color: #457B83;
+}
+.MuiSelect-nativeInput {
+  top: 0;
+}
+
+/* Custom styling */
+/* .MuiContainer-root {
+  padding: 0px;
+} */
+
+.css-2r3elo-MuiTypography-root {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  @media (max-width: 576px) {
+    min-width: 100%;
+    max-width: 100%;
+    left: 0px !important;
+  }
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  position: relative;
+  z-index: 1;
+}
+
+.css-zow5z4-MuiGrid-root {
+  flex-direction: column !important;
+  align-items: center !important;
+  @media (min-width: 1200px) {
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+}
+
+.css-4fd4vi-MuiButtonBase-root-MuiButton-root {
+  padding: 0px;
+}
+
+.css-87juxu-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 100%;
+}
+.hero-bottom-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: all 0.3s ease-in;
+}
+.hero-bottom-link:hover {
+  color: #0177ab;
+}
+.hero-bottom-link[data-active="true"] {
+  color: #0177ab;
+}
+.react-datepicker__input-container input {
+  width: 100%;
+  border: 1px solid #edf2f7;
+  color: #787c8c;
+  font-size: 15px;
+  outline: none;
+  padding: 15px;
+  border-radius: 8px;
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.react-datepicker__input-container input:focus,
+.react-datepicker__input-container input:after {
+  outline: none;
+}
+.mediaDuration .MuiInputBase-root,
+.product-options .MuiInputBase-root {
+  width: 100%;
+}
+.dashboard-nav {
+  transition: all 0.3s ease-in;
+}
+
+.dashboard-nav:hover {
+  background-color: #00000014 !important;
+}
+.dashboard-nav[data-active="true"]:hover {
+  background-color: #ffff !important;
+}
