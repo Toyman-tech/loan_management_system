@@ -1,0 +1,93 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add date-fns
+
+PATH: 
+  C:\Users\user\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\user\bin;C:\Users\user\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\user\AppData\Local\Programs\Python\Python311;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\user\Desktop\codes\newdawn\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "dawn",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@clerk/nextjs": "^4.23.2",
+      "@clerk/themes": "^1.7.5",
+      "@headlessui/react": "^1.7.17",
+      "@heroicons/react": "^2.0.18",
+      "@hookform/resolvers": "^3.3.1",
+      "@radix-ui/react-accordion": "^1.1.2",
+      "@radix-ui/react-avatar": "^1.0.4",
+      "@radix-ui/react-dropdown-menu": "^2.0.6",
+      "@radix-ui/react-label": "^2.0.2",
+      "@radix-ui/react-slot": "^1.0.2",
+      "@radix-ui/react-tabs": "^1.0.4",
+      "@types/node": "20.4.10",
+      "@types/react": "18.2.20",
+      "@types/react-dom": "18.2.7",
+      "@uploadthing/react": "^5.6.0",
+      "add": "^2.0.6",
+      "autoprefixer": "10.4.14",
+      "class-variance-authority": "^0.7.0",
+      "classnames": "^2.3.2",
+      "clsx": "^2.0.0",
+      "embla-carousel-react": "^8.0.0-rc14",
+      "encoding": "^0.1.13",
+      "flowbite": "^1.8.1",
+      "flowbite-react": "^0.6.1",
+      "form": "^0.2.4",
+      "framer-motion": "^10.16.16",
+      "graphql": "^16.8.1",
+      "graphql-request": "^6.1.0",
+      "html-react-parser": "^5.0.4",
+      "lucide-react": "0.263.1",
+      "moment": "^2.29.4",
+      "mongodb": "^6.1.0",
+      "mongoose": "^7.4.3",
+      "next": "^13.5.6",
+      "node-fetch": "^3.3.2",
+      "postcss": "8.4.27",
+      "react": "18.2.0",
+      "react-confetti": "^6.1.0",
+      "react-dom": "18.2.0",
+      "react-hook-form": "^7.46.1",
+      "react-multi-carousel": "^2.8.4",
+      "react-paystack": "^4.0.3",
+      "react-use": "^17.4.2",
+      "shadcn-ui": "^0.3.0",
+      "svix": "^1.8.1",
+      "sweetalert2": "^11.10.1",
+      "sweetalert2-react-content": "^5.0.7",
+      "tailwind-merge": "^1.14.0",
+      "tailwindcss": "3.3.3",
+      "tailwindcss-animate": "^1.0.7",
+      "typescript": "5.1.6",
+      "uploadthing": "^5.6.0",
+      "zod": "^3.22.2"
+    },
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
