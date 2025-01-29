@@ -11,12 +11,12 @@ export const clientSideBarLinks1 = [
   {
     name: "Home",
     icon: ApplicationIcon,
-    url: "/",
+    url: "/dashboard",
   },
   {
     name: "Eligibility",
     icon: BookingsIcon,
-    url: "/eligibility",
+    url: "/dashboard/eligibility",
   },
 ];
 export const clientSideBarLinks2 = [

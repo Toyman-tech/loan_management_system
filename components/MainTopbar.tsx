@@ -200,7 +200,7 @@ const MainTopbar = () => {
                 onClose={handleMenuClose(setAnchorEl)}
               >
                 <MenuItem onClick={handleMenuClose(setAnchorEl)}>
-                  <Link href="/dashboard/settings">
+                  <Link href="/">
                     <Typography
                       variant="h6"
                       component="span"
@@ -212,12 +212,12 @@ const MainTopbar = () => {
                         fontWeight: "500",
                       }}
                     >
-                      My Profile
+                      Home
                     </Typography>
                   </Link>
                 </MenuItem>
                 <MenuItem onClick={handleMenuClose(setAnchorEl)}>
-                  <Link href="/dashboard/settings">
+                  <Link href="/">
                     <Typography
                       variant="h6"
                       component="span"
@@ -229,7 +229,7 @@ const MainTopbar = () => {
                         fontWeight: "500",
                       }}
                     >
-                      Settings
+                      Contact Us
                     </Typography>
                   </Link>
                 </MenuItem>
