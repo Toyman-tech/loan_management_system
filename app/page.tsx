@@ -2,8 +2,15 @@
 import React from 'react';
 import { Box, Container, Typography, Button, Grid, Paper, Stack } from '@mui/material';
 import { Users, PiggyBank, Building2, ArrowRight, Shield, Handshake, Award } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Home() {
+  const scrollToFooter = () => {
+    const footer = document.querySelector('footer');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <Box>
       {/* Hero Section */}
@@ -40,6 +47,7 @@ export default function Home() {
               >
                 Join Nipost Crescent Multipurpose Cooperative Society for a secure financial future
               </Typography>
+              <Link href='/about' >
               <Button 
                 variant="contained" 
                 size="large"
@@ -55,6 +63,7 @@ export default function Home() {
               >
                 About Us
               </Button>
+              </Link>
             </Grid>
             <Grid item xs={12} md={6}>
               <Box 
@@ -226,6 +235,7 @@ export default function Home() {
               px: 4,
               py: 1.5
             }}
+            onClick={() => {scrollToFooter(); }}
           >
            Contact Us
           </Button>
