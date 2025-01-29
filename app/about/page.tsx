@@ -56,8 +56,14 @@ export default function About() {
           <Typography variant="h3" sx={{ color: '#2A4F55', mb: 4, textAlign: 'center' }}>
             Our History
           </Typography>
-          <Typography paragraph sx={{ mb: 4 }}>
-            NIPOST (OSUN) Crescent Multipurpose Cooperative Society Limited (MCSL) was established and registered under Section 7 (1) 2 of the Cooperative Society Law Cap II of the State of Osun, Nigeria Law of 2001, with registration number 19944. Our headquarters is located at the General Post Office, Osogbo, Osun State.
+          <Typography paragraph sx={{ mb: 2 }}>
+            NIPOST (OSUN) Crescent Multipurpose Cooperative Society Limited (MCSL) was established and registered under Section 7 (1) 2 of the Cooperative Society Law Cap II of the State of Osun, Nigeria Law of 2001, with registration number 1994. Our headquarters is located at the General Post Office, Osogbo, Osun State.
+          </Typography>
+          <Typography paragraph sx={{ mb: 2 }}>
+           The idea behind this Co-operative Society (Interest Free our values) slot eminated from Mr. Kamil Adeyeye Adeagbo and Alhaji Mufutau Olawale Olamide discussion at the celebration of completion of Holy Qur'an of the two children of Mr. Nurudeen Eyiwuawi -Ayo. At Abeokuta, Ogun State. On 27th April, 2013.
+          </Typography>
+          <Typography paragraph sx={{ mb: 2 }}>
+            But the first meeting was held on 5th of june, 2013 after payment of May, 2013. salary by Thirteen members and six members absent with permission.
           </Typography>
           <Grid container spacing={4}>
             <Grid item xs={12} md={4}>
