@@ -53,7 +53,7 @@ export default function Home() {
                   py: 1.5
                 }}
               >
-                Become a Member
+                About Us
               </Button>
             </Grid>
             <Grid item xs={12} md={6}>
@@ -227,13 +227,13 @@ export default function Home() {
               py: 1.5
             }}
           >
-            Apply for Membership
+           Contact Us
           </Button>
         </Container>
       </Box>
 
      
-     
+
     </Box>
   );
 }
