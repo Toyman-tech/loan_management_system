@@ -3,6 +3,7 @@ import React from 'react';
 import { Box, Container, Typography, Button, Grid, Paper, Stack } from '@mui/material';
 import { Users, PiggyBank, Building2, ArrowRight, Shield, Handshake, Award } from 'lucide-react';
 import Link from 'next/link';
+import EventGallery from '@/components/EventGallery';
 
 export default function Home() {
   const scrollToFooter = () => {
@@ -68,11 +69,12 @@ export default function Home() {
             <Grid item xs={12} md={6}>
               <Box 
                 component="img"
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3"
+                // src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3"
+                src='/hero.jpg'
                 alt="Cooperative meeting"
                 sx={{
                   width: '100%',
-                  height: 'auto',
+                  height: {sx:'auto', md:'350px'},
                   borderRadius: 2,
                   boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
                 }}
@@ -146,6 +148,10 @@ export default function Home() {
         </Grid>
       </Container>
 
+
+      {/* Event Gallery */}
+      <EventGallery/>
+
       {/* About Section */}
       <Box sx={{ bgcolor: '#f7f9fa', py: { xs: 8, md: 12 } }}>
         <Container maxWidth="lg">
@@ -153,7 +159,8 @@ export default function Home() {
             <Grid item xs={12} md={6}>
               <Box 
                 component="img"
-                src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3"
+                // src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3"
+                src='/img1.jpg'
                 alt="About our cooperative"
                 sx={{
                   width: '100%',
